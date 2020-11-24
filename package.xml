@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>pedsim_track_recorder</name>
+  <version>0.0.1</version>
+  <description>
+    This package records track data of agents from Pedsim ROS topics and saves them to file
+  </description>
+  
+  <author email="francesco.verdoja@aalto.fi">Francesco Verdoja</author>
+  
+  <maintainer email="francesco.verdoja@aalto.fi">Francesco Verdoja</maintainer>
+
+  <license>BSD</license>
+
+  <!-- <url type="website">http://wiki.ros.org/pedsim_track_recorder</url> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>pedsim_ros</build_depend>
+  <build_depend>rospy</build_depend>
+  
+  <build_export_depend>pedsim_ros</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  
+  <exec_depend>pedsim_ros</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  
+</package>
